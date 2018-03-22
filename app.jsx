@@ -9,11 +9,9 @@ import {generateRandomArray} from './src/Libs/tempData';
 
 const appContainer = document.getElementById('app-container');
 
-
-
 const App = () => (
   <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
-    <Layout defaultData={generateRandomArray(60)}/>
+    <Layout defaultData={generateRandomArray(1000)}/>
   </MuiThemeProvider>
 );
 
